@@ -224,10 +224,10 @@ std::string validatestock(std::string ticker, float investmentAmount) {
 
 int twilloMsgSend(std::string msg, std::string phone) {
 
-	std::string account_sid = "AC702b02183b2fd41beb241015f5dd0fc7";
-	std::string auth_token = "00d991d1c703e9213f7b0ad25b0b39e9";
+	std::string account_sid = "";
+	std::string auth_token = "";
 	std::string message = msg;
-	std::string from_number = "+13237161145";
+	std::string from_number = "+";
 	std::string to_number = phone;
 	std::string picture_url;
 	bool verbose = false;
